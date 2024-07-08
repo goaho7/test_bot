@@ -13,7 +13,8 @@ router = Router()
 @router.message(CommandStart())
 async def process_start_command(message: Message):
     await message.answer(
-        LEXICON_RU['/start'], reply_markup=get_buttons().as_markup(resize_keyboard=True)
+        LEXICON_RU['/start'],
+        reply_markup=get_buttons().as_markup(resize_keyboard=True)
     )
 
 

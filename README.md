@@ -1,1 +1,6 @@
-# test_bot
+1. Клонируйте проект
+    git clone git@github.com:goaho7/test_bot.git
+2. Установите зависимости
+    pip install -r requirements.txt
+3. Запустите
+    python main.py
